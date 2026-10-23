@@ -1,26 +1,57 @@
 aid: semiconductor-manufacturing-international-corporation-smic
+
 name: Semiconductor Manufacturing International Corporation (SMIC)
-description: 'Semiconductor Manufacturing International Corporation (SMIC) is a company surfaced via the
-  API Evangelist harvest backlog (source: vc-portfolio; backed by nea) and added to the network as a stub
-  for full-pipeline profiling.'
+
+description: 'Semiconductor Manufacturing International Corporation (SMIC) is a leading semiconductor foundry based in China, providing advanced integrated circuit manufacturing services to global customers. Established in 2000, SMIC offers a range of process technologies, including 14nm, 28nm, and 40nm nodes, supporting applications in mobile, automotive, and IoT sectors. The company focuses on innovation, capacity expansion, and delivering high‑quality silicon solutions, positioning itself as a key player in the worldwide semiconductor supply chain.'
+
 url: https://raw.githubusercontent.com/api-evangelist/semiconductor-manufacturing-international-corporation-smic/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Semiconductor
+- Foundry
+- China
+- Manufacturing
+- Technology
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- nea
+
 common:
+- type: Hosts
+  url: hosts/semiconductor-manufacturing-international-corporation-smic-hosts.yml
+- type: Newsroom
+  url: https://www.smics.com/site/news
+- type: DomainSecurity
+  url: security/semiconductor-manufacturing-international-corporation-smic-domain-security.yml
 - type: Website
   url: https://www.smics.com/
+- type: Image
+  url: https://smic.cdn.shwebspace.com/uploads/logo2022.png?v=1.2
+
+apis: []
+
+x-backed-by:
+- nea
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

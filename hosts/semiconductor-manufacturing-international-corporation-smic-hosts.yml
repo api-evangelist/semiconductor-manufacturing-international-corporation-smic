@@ -1,0 +1,76 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 6
+  own: 4
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - other
+  - website
+hosts:
+- host: api.shwebspace.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: shwebspace.com
+  role: api
+  relation: other-domain
+- host: api.smics.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: smics.com
+  role: api
+  relation: own
+- host: online.smics.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: smics.com
+  role: other
+  relation: own
+- host: service.smics.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: smics.com
+  role: other
+  relation: own
+- host: smic.cdn.shwebspace.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Image
+  serves: []
+  registrable_domain: shwebspace.com
+  role: other
+  relation: other-domain
+- host: www.smics.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Newsroom
+  - Website
+  serves: []
+  registrable_domain: smics.com
+  role: website
+  relation: own

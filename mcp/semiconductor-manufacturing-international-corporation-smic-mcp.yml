@@ -1,0 +1,9 @@
+generated: '2026-10-23'
+method: derived
+source: preflight
+id: semiconductor-manufacturing-international-corporation-smic
+type: MCPServer
+deployment:
+  mode: none
+  auth: unknown
+  verified: derived

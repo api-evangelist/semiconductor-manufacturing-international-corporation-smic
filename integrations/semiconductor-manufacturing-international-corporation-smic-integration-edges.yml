@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/semiconductor-manufacturing-international-corporation-smic/integrations
+- https://n8n.io/integrations/semiconductor-manufacturing-international-corporation-smic/
+- https://composio.dev/toolkits/semiconductor-manufacturing-international-corporation-smic
+- https://monid.ai/tools/semiconductor-manufacturing-international-corporation-smic
+checked:
+- https://composio.dev/toolkits/semiconductor-manufacturing-international-corporation-smic
+- https://monid.ai/tools/semiconductor-manufacturing-international-corporation-smic
+- https://n8n.io/integrations/semiconductor-manufacturing-international-corporation-smic/
+- https://zapier.com/apps/semiconductor-manufacturing-international-corporation-smic/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
